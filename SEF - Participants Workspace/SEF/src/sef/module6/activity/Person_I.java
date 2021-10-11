@@ -10,21 +10,35 @@ public class Person_I {
 	private int age;
 	
 	//Behavior - write default constructor. Print 'I'm Person_I constructor'
-	
+	Person_I() {
+		System.out.println("I'm a Person_I Constructor");
+	}
 	
 	//Behavior - write parameterized constructor
-	
+	Person_I(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
 	
 	// write getter for String name
-	
-	
+	public String getName() {
+		return name;
+	}
+
 	// write setter for String name
-	
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	// write getter for int age
-	
+	public int getAge() {
+		return age;
+	}
 
 	// write setter for int age
-	
+	public void setAge(int age) {
+		this.age = age;
+	}
+
 }
 
