@@ -31,11 +31,14 @@ public class FindInArray {
 		
 		// Find largest in an array
 		for (int i = 1; i < nums.length; i++) {
-			// complete the code
+			if (nums[i] > result) {
+				result = nums[i];
+			}
 		}
 		System.out.println("Largest in array is "+result);
 
 
 	}
+
 
 }
