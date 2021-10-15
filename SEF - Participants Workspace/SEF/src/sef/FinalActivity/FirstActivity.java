@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
 
+//Done by Amirans Pirchalaisvili
+
 public class FirstActivity {
     public static void main(String args[]) throws NumInNameException {
         ArrayList<Employee> employees = new ArrayList<Employee>();
