@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
 
-//Done by Amirans Pirchalaisvili
-
 public class FirstActivity {
     public static void main(String args[]) throws NumInNameException {
         ArrayList<Employee> employees = new ArrayList<Employee>();
@@ -30,6 +28,8 @@ public class FirstActivity {
         }
 
         //This part is for bonus 4
+        System.out.println();
+        System.out.println("Sorting by name and surname:");
         employees.add(new Employee("Jane", "Siegmann", 28,
                 "Accenture", "System Analyst", 69000));
         EmployeeNameComparator nameCom = new EmployeeNameComparator();
@@ -37,6 +37,7 @@ public class FirstActivity {
         for (int i = 0; i < employees.size(); i++) {
             System.out.println(employees.get(i).getFirstName() + " " + employees.get(i).getLastName());
         }
+        System.out.println();
 
         //This part is for bonus 2
         //Make a file
